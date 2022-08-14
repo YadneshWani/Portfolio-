@@ -2,9 +2,9 @@ import LOGO from "../assets/images/Yadnesh_Wani_Circular.png";
 import HTML from "../assets/images/Skills/Html.png";
 import CSS from "../assets/images/Skills/CSS.png";
 import JAVASCRIPT from "../assets/images/Skills/Javascript.png";
-import TAILWIND from "../assets/images/Skills/Tailwind.png";
 import NODE_JS from "../assets/images/Skills/Node_JS.png";
 import React_Logo from '../assets/images/Skills/React_Logo.png';
+import JAVA from '../assets/images/Skills/Java.png';
 
 const STUDENT_NAME = "Yadnesh Wani";
 const FIRST_NAME = "Yadnesh";
@@ -22,6 +22,7 @@ const INFO_DESCRIPTION = "Innovative and self-motivated computer engineering stu
 const EMAIL_JS_SERVICE_ID = "service_p9w46ab";
 const EMAIL_JS_TEMPLATE_ID = "template_xb02z6f";
 const EMAIL_JS_PUBLIC_KEY = "7fctwMZKCzfI0d7yy";
+
 
 const PROJECTS = [
     {
@@ -72,7 +73,7 @@ const SKILLS = [
     {
         id: 6,
         name: "Java",
-        img_src: TAILWIND,
+        img_src: JAVA,
     }
     
 ];
