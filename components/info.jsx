@@ -2,7 +2,7 @@ import Image from 'next/image';
 // import Logo from "../public/blob.svg";
 import perfil from "../public/perfil.png";
 import Logo from "../components/logo";
-import { FIRST_NAME, GITHUB_LINK, INFO_DESCRIPTION, INSTAGRAM_LINK, LINKEDIN_LINK } from './constants';
+import { FIRST_NAME, GITHUB_LINK, INFO_DESCRIPTION, INSTAGRAM_LINK, LINKEDIN_LINK, MAIN_ROLE } from './constants';
 function Info() {
 
     return (
@@ -26,7 +26,7 @@ function Info() {
                         </div>
                         <div className="home__data">
                             <h1 className="home__title">Hi, I&apos;m {FIRST_NAME}</h1>
-                            <h3 className="home__subtitle">Web Developer</h3>
+                            <h3 className="home__subtitle">{MAIN_ROLE}</h3>
                             <p className="home__description">{INFO_DESCRIPTION}</p>
                             <a href="" rel="noreferrer" className="button button__flex">
                                 Contact Me <span className="button__icon"><i className="uil uil-message"></i></span>
